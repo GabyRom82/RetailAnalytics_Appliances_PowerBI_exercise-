@@ -14,9 +14,13 @@ El objetivo es aplicar conceptos de visualización de datos, modelado y diseño 
 - **Dashboard Explicativo (o de reporte)**: Diseñado para **contar una historia con los datos** mostrando resultados claros y accesibles para una audiencia no técnica, y presentar informaicón importante para la toma de desiciones del negocio.
 - **Dashboard Táctico**: Orientado en proporciona información detallada por **categoría y áreas** para facilitar el análisis a medio plazo, y la toma de decisiones operativas y desisivas para su crecimieto.
 - **Dashboard analítico**: Nos permite explorar datos y encontrar patrones para esta toma de decisiones.Algunas características analíticas:
-filtros
-segmentación
-comparaciones
+ 
+<p align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" width="16"> <b>Filtros</b> &nbsp;&nbsp;&nbsp;
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" width="16"> <b>Segmentación</b> &nbsp;&nbsp;&nbsp;
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" width="16"> <b>Comparaciones</b>
+</p>
+
 
 Se pone especial énfasis en la **estética visual**, la claridad de los indicadores y la usabilidad, logrando un equilibrio entre funcionalidad analítica y presentación profesional.
 
