@@ -22,32 +22,45 @@ El objetivo es aplicar conceptos de visualización de datos, modelado y diseño 
 </p>
 
 
-Se pone especial énfasis en la **estética visual**, la claridad de los indicadores y la usabilidad, logrando un equilibrio entre funcionalidad analítica y presentación profesional.
+Este ejercicio pone especial énfasis la **estética visual**, la claridad de los indicadores y la usabilidad, logrando un equilibrio entre funcionalidad analítica y presentación profesional.
 
 ---
 
 ## 🎯 Objetivos del Proyecto
 
-- Responder preguntas clave de negocio:
-  - ¿Cuáles son las **ventas totales** por período, categoría y región?
-  - ¿Qué **departamentos** tienen mejor desempeño?
+El objetivo general de este ejercicio, es responder preguntas clave de negocio, tales como:
+  - ¿Cuáles son las **ventas totales** por período (mes,trimestre y año), por categorías y por región?
+  - ¿Qué **categoría** tienen mejor desempeño?
   - ¿Cómo evolucionan las ventas a lo largo del tiempo?
-  - ¿Qué productos son los más vendidos?
-- Proporcionar una vista táctica que permita filtrar por áreas específicas (electrodomésticos, electrónica, etc.).
-- Narrar de forma intuitiva el comportamiento del negocio mediante visualizaciones atractivas y fáciles de interpretar.
+
+Así como proporcionar una vista táctica que permita diversoso filtros, que permitan responder diferentes preguntas. Parte fundamental del poder de las visualizaciones en el  StoryTelling, es narrar de forma interesante el comportamiento del negocio mediante visualizaciones atractivas y fáciles de interpretar.
+En este caso se ha pedido mostrar, cómo han ido evolucionando las ventas, separando las perspectivas:
+
+ 1. Por un lado le interesa ver las ventas totales, y su tendencia a lo largo del tiempo, así como su distribución en los canales de venta (tiendas físicas u online), y conocer geográficamente, dónde se concentran sus clientes.
+
+ 2. Por otro lado, le interesa ver cómo se comparan las diferentes categorías de productos entre sí, respecto a la cantidad de unidades vendidas. 
 
 ---
 
 ## 🗂️ Datos
 
-Los datos utilizados son **ficticios**, proporcionados en el curso de Udemy, y constan de **4 tablas relacionales** que simulan la operación de una cadena de tiendas de electrodomésticos:
+Los datos utilizados son **ficticios** y **no-publicos**, proporcionados en el curso de Udemy, y constan de **4 tablas relacionales** que simulan la operación de una cadena de tiendas de electrodomésticos:
 
-- **Ventas**: Transacciones diarias con importes, fechas y productos.
-- **Productos**: Catálogo con categorías, subcategorías y precios.
-- **Tiendas**: Información de ubicación y región de cada tienda.
-- **Calendario**: Tabla de fechas para análisis temporal.
+- **Listado_precios**: Contiene id_producto (PRIMARY KEY), Precio y Costo.
+- **Categorías**: Contiene Categoría, id_categoría,Subcategoría, id_subcategoria.
+- **Ciudades**: Contiene ID_ciudad, Ciudad, Latitud y Longitud.
+- **Transacciones**: Contiene Transacciones, fecha y hora, Id_producto, tipo de venta, Cantidad Id_ciudad, id_categoria, Id_subcategoría.
 
-Se realizó un modelo de datos en estrella para relacionar las tablas y optimizar los cálculos.
+Se realizó un **modelo de datos en estrella** para relacionar las tablas, la relación es 1 (dimensión) a N (hechos), típica del esquema:
+
+*La tabla Transacciones actúa como tabla de hechos (fact table): contiene medidas (como Cantidad) y claves foráneas que la conectan con las dimensiones.
+*Las tablas Listado_Precios, Ciudades1 y Categorías son tablas de dimensión: cada una tiene una clave primaria (ID_Producto, ID_Ciudad, ID_Categoría/ID_Subcategoría) que es referenciada desde Transacciones.
+
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/889b5ee7-702c-49fe-bd2b-69964f42d759" width="80%"> 
+</p>
+
 
 ---
 
