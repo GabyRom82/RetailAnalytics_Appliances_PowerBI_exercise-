@@ -61,23 +61,25 @@ Se realizó un **modelo de datos en estrella** para relacionar las tablas, la re
 <img src="https://github.com/user-attachments/assets/889b5ee7-702c-49fe-bd2b-69964f42d759" width="80%"> 
 </p>
 
-
 ---
 
 ## 🛠️ Herramientas y Tecnologías
 
+- **EXCEL**: análisis exploratoriod e daots(DEA), y limpieza de la base de datos, principalmente en los datos geográficos.
 - **Power BI Desktop**: Desarrollo del dashboard, modelado y visualizaciones.
-- **Lenguaje DAX**: Creación de medidas personalizadas (ventas acumuladas, variación porcentual, etc.).
-- **Power Query**: Limpieza y transformación de datos.
-
+- **Generador de temas BIPP**: Apoyo para el diseño del tema de Dashboard
+  
 ---
 
 ## ✨ Características Destacadas
 
+Uno de los principales objetivos del ejercicio, es usar paginas y documentaicón de apouo en la parte de diseño visual, algunos recursos usadosson:
+ BIPP: te ayuda a generar diferentes temas, para la construcción del Dashboard, puedes utilizar temas ya construidos, o personalizarlo. Para el caso del ejercicio se subio la imagen del logo (ficticio), y se genero un tema personalizado en un archivo JSON (JavaScript Object Notation), para la construccion del dashboard con un diseño coherente y atractivo.
+
+
 - **Diseño limpio y moderno**: Uso de paleta de colores coherente, tipografías legibles y disposición equilibrada de los elementos.
-- **Interactividad**: Filtros cruzados, segmentaciones de datos y botones para navegar entre páginas.
-- **KPIs clave**: Tarjetas con indicadores de ventas totales, ticket promedio, márgenes, etc.
-- **Gráficos variados**: Barras, líneas de tendencia, mapas y matrices para diferentes perspectivas.
+- **Interactividad**: Filtros básicos, segmentadores y tarjetas  de datos (en este caso se uso el KPI ventas totales).
+- **Gráficos variados**: Barras, líneas de tendencia, mapas ygráfico de dona para porcentajes,.
 - **Narrativa guiada**: El dashboard cuenta una historia, desde el panorama general hasta el detalle por departamento.
 
 ---
