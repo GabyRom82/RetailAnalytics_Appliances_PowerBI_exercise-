@@ -84,7 +84,7 @@ Se realizó un **modelo de datos en estrella** para relacionar las tablas, la re
 
 ## ✨ Características Destacadas
 
-Uno de los principales objetivos del ejercicio, es usar paginas y documentaicón de apouo en la parte de diseño visual, algunos recursos usados son:
+Uno de los principales objetivos del ejercicio, es usar paginas y documentaicón de apoyo en la parte de diseño visual, algunos recursos usados son:
  **BIPP (https://bibb.pro/apps/theme-generator/?color1=e85399&color2=060606&color3=f2dcee&color4=f89833&color5=ec75dd&color6=ef885d&color7=6c6c6c&color8=787878)**:
 
 Te ayuda a generar diferentes temas, para la construcción del Dashboard, puedes utilizar temas ya construidos, o personalizarlo. Para el caso del ejercicio se subio la imagen del logo (ficticio), y se genero un tema personalizado en un archivo JSON (JavaScript Object Notation), para la construccion del dashboard con un diseño coherente y atractivo.
@@ -104,8 +104,8 @@ Es otra página para generar temas, en el caso de este ejercicio, se utilizo par
 
 ## 🚀 Cómo Usar Este Repositorio
 
-1. Clona o descarga el repositorio.
-2. Abre el archivo `.pbix` con Power BI Desktop (versión 2023 o superior).
+1.Este repositorio solo es con fines descriptivos, y demostrativo de manejo de análisis de dtos, y manejo de Power BI.
+2.Para poder ver el el uso de los filtros, los segmentadores, y la tarjeta de KPI abre el archivo `.pbix` con Power BI Desktop (versión 2023 o superior).
 3. Explora las diferentes páginas del dashboard y prueba los filtros interactivos.
 4. Si deseas modificar los datos, puedes editar las fuentes en Power Query.
 
@@ -113,8 +113,88 @@ Es otra página para generar temas, en el caso de este ejercicio, se utilizo par
 
 ## 📷 Vista Previa del Dashboard
 
-*(Incluye aquí una o varias capturas de pantalla para mostrar el resultado final)*
+#Descripción general del dashboard
 
+Este dashboard constituye una plataforma de **análisis táctico y exploratorio** para el monitoreo del desempeño comercial de una tienda ficticia de productos electrónicos. Integra visualizaciones interactivas que permiten analizar el comportamiento de ventas desde múltiples dimensiones, incluyendo volumen de productos vendidos, distribución por categoría, canal de venta y evolución temporal.
+
+El modelo analítico facilita:
+
+<p align="center">
+
+<img src="https://github.com/user-attachments/assets/f1475669-9717-40f7-827f-f31b6e1447c8" width="14"> 
+<b>Monitoreo de KPIs comerciales (cantidad de productos vendidos).</b>
+<br><br>
+
+<img src="https://github.com/user-attachments/assets/f1475669-9717-40f7-827f-f31b6e1447c8" width="14"> 
+<b>Segmentación por categorías y subcategorías de productos.</b>
+<br><br>
+
+<img src="https://github.com/user-attachments/assets/f1475669-9717-40f7-827f-f31b6e1447c8" width="14"> 
+<b>Comparación de desempeño entre canales de venta (online vs tienda física).</b>
+<br><br>
+
+<img src="https://github.com/user-attachments/assets/f1475669-9717-40f7-827f-f31b6e1447c8" width="14"> 
+<b>Análisis de tendencias temporales para detectar patrones de demanda.</b>
+<br><br>
+
+<img src="https://github.com/user-attachments/assets/f1475669-9717-40f7-827f-f31b6e1447c8" width="14"> 
+<b>Exploración geográfica de transacciones por ciudad.</b>
+
+</p>
+
+El dashboard está diseñado para apoyar decisiones tácticas de negocio, priorización de categorías y evaluación de estrategias de venta multicanal.
+
+<p align="center">
+<img width="425" height="726" alt="image" src="https://github.com/user-attachments/assets/c79cb413-8cd4-49e0-9abc-f72580675eab" />
+</p>
+
+##Análisis de la distribución Geográfica de Ventas/Transacciones (primer hoja del Dashboard)
+
+En esta primer parte del dashboard se presenta un análisis espacial de las transacciones comerciales, permitiendo visualizar la distribución de ventas por ciudad mediante un mapa interactivo.
+
+#Componentes analíticos:
+
+**Mapa geográfico de transacciones que identifica la concentración de ventas por ubicación.
+Indicador KPI de volumen total de productos vendidos.
+Filtro temporal dinámico que permite analizar el comportamiento de ventas entre 2024 y 2026.**
+
+#Objetivo táctico:  Facilitar la identificación de mercados regionales con mayor actividad comercial, permitiendo orientar decisiones relacionadas con las Estrategias de expansión, la Logística y distribución, así como tomar desiciones para Campañas comerciales regionales.
+
+##Desempeño por Categoría y Canal de Venta (segunda hoja del Dashboard)
+
+En esta segunda sección del dashboard se proporciona una visión comparativa del desempeño de ventas por categorías y subcategorías de productos, así como su relación con los canales de comercialización.
+
+#Componentes analíticos
+
+**Distribución porcentual de ventas por categoría
+Permite identificar qué categorías concentran mayor participación en el volumen total.
+Comparación de ventas por canal
+Diferenciación entre ventas online y ventas en tienda física.
+Análisis jerárquico de categorías y subcategorías
+Permite profundizar en el rendimiento específico de cada línea de productos.**
+
+Objetivo táctico: se relaciona principalmente en apoyar decisiones relacionadas con:
+
+**Gestión del portafolio de productos
+Priorización de categorías estratégicas
+Optimización de estrategias omnicanal**
+
+##Análisis de Tendencias y Evolución de Ventas
+En la última parte del reporte del Dashboard se presenta un análisis longitudinal del comportamiento de ventas, mostrando la evolución de la demanda por categoría a lo largo del tiempo.
+
+#Componentes analíticos
+
+**Serie temporal de ventas
+Evolución del volumen de ventas entre 2024 y 2026.
+Segmentación por categoría
+Permite identificar patrones de crecimiento, estacionalidad o declive en cada línea de producto.**
+
+Esta parte fue diseñada para permitir a los responsables comerciales a:
+
+**Detectar tendencias de crecimiento o disminución en categorías específicas
+Identificar patrones estacionales de consumo**
+
+Anticipar necesidades de inventario y abastecimiento
 ---
 
 ## 📚 Créditos
