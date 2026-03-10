@@ -1,9 +1,20 @@
 markdown
 #  Dashboard RetailAnalytics_Appliances_PowerBI_exercise-
 Dashboard preview
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/646c016b-6833-46f7-bfc4-a7c9754ff131" width="70%">
-</p>
+
+<div align="center">
+
+<table>
+<tr>
+<td style="border:6px solid #4B0082; border-radius:18px; padding:6px;">
+
+<img src="https://github.com/user-attachments/assets/646c016b-6833-46f7-bfc4-a7c9754ff131" width="700">
+
+</td>
+</tr>
+</table>
+
+</div>
 
 
 ## 📌 Descripción General
@@ -73,9 +84,16 @@ Se realizó un **modelo de datos en estrella** para relacionar las tablas, la re
 
 ## ✨ Características Destacadas
 
-Uno de los principales objetivos del ejercicio, es usar paginas y documentaicón de apouo en la parte de diseño visual, algunos recursos usadosson:
- BIPP: te ayuda a generar diferentes temas, para la construcción del Dashboard, puedes utilizar temas ya construidos, o personalizarlo. Para el caso del ejercicio se subio la imagen del logo (ficticio), y se genero un tema personalizado en un archivo JSON (JavaScript Object Notation), para la construccion del dashboard con un diseño coherente y atractivo.
+Uno de los principales objetivos del ejercicio, es usar paginas y documentaicón de apouo en la parte de diseño visual, algunos recursos usados son:
+ **BIPP (https://bibb.pro/apps/theme-generator/?color1=e85399&color2=060606&color3=f2dcee&color4=f89833&color5=ec75dd&color6=ef885d&color7=6c6c6c&color8=787878)**:
 
+Te ayuda a generar diferentes temas, para la construcción del Dashboard, puedes utilizar temas ya construidos, o personalizarlo. Para el caso del ejercicio se subio la imagen del logo (ficticio), y se genero un tema personalizado en un archivo JSON (JavaScript Object Notation), para la construccion del dashboard con un diseño coherente y atractivo.
+
+**Flaticon(https://www.flaticon.es/resultados?word=puntos)**: 
+Es un recurso en línea, que tiene una gran cantidad de íconos para poder insertar en tu dasboard.
+
+**Rueda de colores (https://color.adobe.com/es/create/color-wheel)**:
+Es otra página para generar temas, en el caso de este ejercicio, se utilizo para conocer colores complementarios, y darle equilibrio al Dashboard.
 
 - **Diseño limpio y moderno**: Uso de paleta de colores coherente, tipografías legibles y disposición equilibrada de los elementos.
 - **Interactividad**: Filtros básicos, segmentadores y tarjetas  de datos (en este caso se uso el KPI ventas totales).
