@@ -105,15 +105,18 @@ Es otra página para generar temas, en el caso de este ejercicio, se utilizo par
 ## 🚀 Cómo Usar Este Repositorio
 
 1.Este repositorio solo es con fines descriptivos, y demostrativo de manejo de análisis de dtos, y manejo de Power BI.
+
 2.Para poder ver el el uso de los filtros, los segmentadores, y la tarjeta de KPI abre el archivo `.pbix` con Power BI Desktop (versión 2023 o superior).
-3. Explora las diferentes páginas del dashboard y prueba los filtros interactivos.
-4. Si deseas modificar los datos, puedes editar las fuentes en Power Query.
+
+3.Explora las diferentes páginas del dashboard y prueba los filtros interactivos.
+   
+4.Si deseas modificar los datos, puedes editar las fuentes en Power Query.
 
 ---
 
 ## 📷 Vista Previa del Dashboard
 
-#Descripción general del dashboard
+# Descripción general del dashboard
 
 Este dashboard constituye una plataforma de **análisis táctico y exploratorio** para el monitoreo del desempeño comercial de una tienda ficticia de productos electrónicos. Integra visualizaciones interactivas que permiten analizar el comportamiento de ventas desde múltiples dimensiones, incluyendo volumen de productos vendidos, distribución por categoría, canal de venta y evolución temporal.
 
@@ -148,58 +151,94 @@ El dashboard está diseñado para apoyar decisiones tácticas de negocio, priori
 <img width="425" height="726" alt="image" src="https://github.com/user-attachments/assets/c79cb413-8cd4-49e0-9abc-f72580675eab" />
 </p>
 
-##Análisis de la distribución Geográfica de Ventas/Transacciones (primer hoja del Dashboard)
+## Análisis de la distribución Geográfica de Ventas/Transacciones (primer hoja del Dashboard)
 
 En esta primer parte del dashboard se presenta un análisis espacial de las transacciones comerciales, permitiendo visualizar la distribución de ventas por ciudad mediante un mapa interactivo.
 
-#Componentes analíticos:
+*Componentes analíticos:*
 
-**Mapa geográfico de transacciones que identifica la concentración de ventas por ubicación.
-Indicador KPI de volumen total de productos vendidos.
-Filtro temporal dinámico que permite analizar el comportamiento de ventas entre 2024 y 2026.**
+ - Mapa geográfico de transacciones que identifica la concentración de ventas por ubicación.
+ 
+ - Indicador KPI de volumen total de productos vendidos.
+ 
+ - Filtro temporal dinámico que permite analizar el comportamiento de ventas entre 2024 y 2026.
 
-#Objetivo táctico:  Facilitar la identificación de mercados regionales con mayor actividad comercial, permitiendo orientar decisiones relacionadas con las Estrategias de expansión, la Logística y distribución, así como tomar desiciones para Campañas comerciales regionales.
+*Objetivo táctico:*  Facilitar la identificación de mercados regionales con mayor actividad comercial, permitiendo orientar decisiones relacionadas con las Estrategias de expansión, la Logística y distribución, así como tomar desiciones para Campañas comerciales regionales.
 
-##Desempeño por Categoría y Canal de Venta (segunda hoja del Dashboard)
+
+<img width="1105" height="645" alt="image" src="https://github.com/user-attachments/assets/0618e1b8-0ef4-4bc3-ad86-c1a278fcf226" />
+
+
+## Desempeño por Categoría y Canal de Venta (segunda hoja del Dashboard)
 
 En esta segunda sección del dashboard se proporciona una visión comparativa del desempeño de ventas por categorías y subcategorías de productos, así como su relación con los canales de comercialización.
 
-#Componentes analíticos
+*Componentes analíticos*
 
-**Distribución porcentual de ventas por categoría
-Permite identificar qué categorías concentran mayor participación en el volumen total.
-Comparación de ventas por canal
-Diferenciación entre ventas online y ventas en tienda física.
-Análisis jerárquico de categorías y subcategorías
-Permite profundizar en el rendimiento específico de cada línea de productos.**
+- Distribución porcentual de ventas por categoría
 
-Objetivo táctico: se relaciona principalmente en apoyar decisiones relacionadas con:
+- Permite identificar qué categorías concentran mayor participación en el volumen total.
 
-**Gestión del portafolio de productos
-Priorización de categorías estratégicas
-Optimización de estrategias omnicanal**
+- Comparación de ventas por canal
 
-##Análisis de Tendencias y Evolución de Ventas
+- Diferenciación entre ventas online y ventas en tienda física.
+
+- Análisis jerárquico de categorías y subcategorías
+
+- Permite profundizar en el rendimiento específico de cada línea de productos.
+
+*Objetivo táctico: Se relaciona principalmente en apoyar decisiones relacionadas con:*
+
+- Gestión del portafolio de productos
+- Priorización de categorías estratégicas
+- Optimización de estrategias omnicanal
+
+
+
+<img width="1103" height="648" alt="image" src="https://github.com/user-attachments/assets/9d3336b5-f450-4811-9880-b41893ce9f23" />
+
+
+## Análisis de Tendencias y Evolución de Ventas
 En la última parte del reporte del Dashboard se presenta un análisis longitudinal del comportamiento de ventas, mostrando la evolución de la demanda por categoría a lo largo del tiempo.
 
-#Componentes analíticos
+*Componentes analíticos:*
 
-**Serie temporal de ventas
-Evolución del volumen de ventas entre 2024 y 2026.
-Segmentación por categoría
-Permite identificar patrones de crecimiento, estacionalidad o declive en cada línea de producto.**
+- Serie temporal de ventas.
+
+- Evolución del volumen de ventas entre 2024 y 2026.
+
+- Segmentación por categoría.
+
+- Permite identificar patrones de crecimiento, estacionalidad o declive en cada línea de producto.
+
 
 Esta parte fue diseñada para permitir a los responsables comerciales a:
 
-**Detectar tendencias de crecimiento o disminución en categorías específicas
-Identificar patrones estacionales de consumo**
+ - Detectar tendencias de crecimiento o disminución en categorías específicas
+ - Identificar patrones estacionales de consumo
+ - Anticipar necesidades de inventario y abastecimiento
 
-Anticipar necesidades de inventario y abastecimiento
+<img width="1100" height="627" alt="image" src="https://github.com/user-attachments/assets/0e18f02e-849d-4d88-8927-e2bb848fef7d" />
+
 ---
 
 ## 📚 Créditos
 
 Este proyecto fue desarrollado como parte del curso **"Power BI – Análisis de Datos y Business Intelligence"** en Udemy. Los datos son proporcionados por el curso y tienen fines exclusivamente educativos.
+
+Lo realiza:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c21439cd-4209-4573-8575-4f068c5086fd" width="500">
+</p>
+
+
+<div align="center">
+<p align="justify" style="max-width:800px;">
+Analista de datos con 5 años de experiencia en análisis estadístico, visualización y gestión de bases de datos en los sectores educativo, de investigación y administrativo. Transformo datos en información estratégica que impulsa decisiones inteligentes. Conocimientos básicos de programación en Python y R; nivel intermedio de Excel y SQL; diseño de dashboards en Tableau y Power BI para facilitar la comprensión y el storytelling basado en datos. Con una maestría en Ciencias, aplico pensamiento analítico, crítico e innovador a cada proyecto, integrando narrativas de datos claras y efectivas. Soy una profesional motivada, adaptable y orientada al aprendizaje continuo. Como analista busco generar análisis que aporten valor, perspectiva estratégica y una visión única para mejorar el rendimiento organizacional y la optimización de decisiones estratégicas basadas en datos.
+</p>
+</div>
+
 
 ---
 
@@ -207,5 +246,5 @@ Este proyecto fue desarrollado como parte del curso **"Power BI – Análisis de
 
 Si tienes preguntas, sugerencias o simplemente quieres conectar, ¡estaré encantado de recibir tu mensaje!
 
-- **LinkedIn**: [tu-perfil](https://linkedin.com/in/tu-usuario)
-- **Correo**: tu-email@ejemplo.com
+- **LinkedIn**: [https://www.linkedin.com/in/gabriela-romero-b4a11414b/)
+- **Correo**: gabriela.e.romero.moreno.romero@gmail.com
