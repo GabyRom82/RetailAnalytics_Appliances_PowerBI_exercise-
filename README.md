@@ -19,12 +19,17 @@ Dashboard preview
 
 ## 📌 Descripción General
 
-Este repositorio contiene mi primer dashboard interactivo desarrollado en **Power BI**, como parte de un curso práctico en Udemy: Power BI TOTAL en 14 Días - Analista de Datos Avanzado, profesor Federico.
-El objetivo es aplicar conceptos de visualización de datos, modelado y diseño para crear un reporte que combine:
+Este repositorio presenta un **dashboard interactivo desarrollado en Power BI**, creado como parte de un proyecto práctico del curso Power BI Total en 14 Días – Analista de Datos Avanzado impartido por Federico (Udemy). El objetivo del proyecto es aplicar principios fundamentales de visualización de datos, modelado y diseño de dashboards para construir un reporte analítico que facilite la comprensión del desempeño comercial de una tienda de electrodomésticos.
 
-- **Dashboard Explicativo (o de reporte)**: Diseñado para **contar una historia con los datos** mostrando resultados claros y accesibles para una audiencia no técnica, y presentar informaicón importante para la toma de desiciones del negocio.
-- **Dashboard Táctico**: Orientado en proporciona información detallada por **categoría y áreas** para facilitar el análisis a medio plazo, y la toma de decisiones operativas y desisivas para su crecimieto.
-- **Dashboard analítico**: Nos permite explorar datos y encontrar patrones para esta toma de decisiones.Algunas características analíticas:
+El dashboard integra distintos enfoques de análisis con el fin de ofrecer una visión completa del comportamiento de las ventas:
+
+-**Dashboard explicativo(reporting dashboard):** orientado a comunicar resultados clave de forma clara y accesible, permitiendo presentar información relevante para la toma de decisiones estratégicas por parte de audiencias no técnicas.
+
+-**Dashboard táctico:** enfocado en el análisis del desempeño comercial a nivel de categorías, subcategorías y canales de venta, proporcionando información que facilita la evaluación del rendimiento y la toma de decisiones operativas a mediano plazo.
+
+-**Dashboard analítico:** diseñado para permitir la exploración de los datos y la identificación de patrones o tendencias, apoyando el análisis detallado del comportamiento de ventas mediante segmentaciones, comparaciones y análisis temporal.
+
+En conjunto, este proyecto busca demostrar cómo una adecuada integración entre modelado de datos, visualización y narrativa analítica puede transformar datos transaccionales en información estratégica para la toma de decisiones basada en datos.
  
 <p align="center">
 <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" width="16"> <b>Filtros</b> &nbsp;&nbsp;&nbsp;
@@ -32,41 +37,79 @@ El objetivo es aplicar conceptos de visualización de datos, modelado y diseño 
 <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" width="16"> <b>Comparaciones</b>
 </p>
 
-
-Este ejercicio pone especial énfasis la **estética visual**, la claridad de los indicadores y la usabilidad, logrando un equilibrio entre funcionalidad analítica y presentación profesional.
-
 ---
 
 ## 🎯 Objetivos del Proyecto
 
-El objetivo general de este ejercicio, es responder preguntas clave de negocio, tales como:
-  - ¿Cuáles son las **ventas totales** por período (mes,trimestre y año), por categorías y por región?
-  - ¿Qué **categoría** tienen mejor desempeño?
-  - ¿Cómo evolucionan las ventas a lo largo del tiempo?
+El objetivo de este proyecto es desarrollar un dashboard analítico que permita responder **preguntas clave de negocio** relacionadas con el desempeño de ventas, facilitando la exploración de los datos y la identificación de patrones relevantes para la toma de decisiones.
 
-Así como proporcionar una vista táctica que permita diversoso filtros, que permitan responder diferentes preguntas. Parte fundamental del poder de las visualizaciones en el  StoryTelling, es narrar de forma interesante el comportamiento del negocio mediante visualizaciones atractivas y fáciles de interpretar.
-En este caso se ha pedido mostrar, cómo han ido evolucionando las ventas, separando las perspectivas:
+En particular, el análisis busca responder a preguntas como:
 
- 1. Por un lado le interesa ver las ventas totales, y su tendencia a lo largo del tiempo, así como su distribución en los canales de venta (tiendas físicas u online), y conocer geográficamente, dónde se concentran sus clientes.
+- ¿Cuál es el volumen total de ventas por periodo (mes, trimestre y año), por categoría de producto y por región?
 
- 2. Por otro lado, le interesa ver cómo se comparan las diferentes categorías de productos entre sí, respecto a la cantidad de unidades vendidas. 
+- ¿Qué categorías de productos presentan el mejor desempeño en términos de ventas o unidades comercializadas?
+
+- ¿Cómo evolucionan las ventas a lo largo del tiempo y qué tendencias pueden identificarse?
+
+Adicionalmente, el dashboard incorpora segmentaciones y filtros interactivos que permiten **analizar los datos desde diferentes perspectivas**, facilitando la exploración dinámica de la información.
+
+Desde el enfoque de **data storytelling**, el proyecto busca representar visualmente el comportamiento del negocio mediante visualizaciones claras, atractivas y fáciles de interpretar, permitiendo comunicar insights relevantes a distintos tipos de usuarios. Para ello, el análisis se organiza en dos perspectivas principales:
+
+1. Perspectiva de desempeño general de ventas
+Se analiza el comportamiento global de las ventas, incluyendo:
+
+- Evolución temporal de las ventas
+
+- Distribución por canal de venta (tiendas físicas vs. online)
+
+- Análisis geográfico para identificar las regiones o ciudades con mayor concentración de clientes
+
+2. Perspectiva de comparación entre categorías de productos
+Se evalúa el desempeño relativo de las diferentes categorías de productos, permitiendo comparar:
+
+- Volumen de unidades vendidas
+
+- Participación relativa de cada categoría
+
+- Diferencias en el comportamiento comercial entre líneas de producto
+
+Este enfoque permite construir una visión integral del negocio, combinando análisis temporal, segmentación comercial y exploración comparativa, elementos fundamentales en proyectos de business intelligence y analítica de datos.
 
 ---
 
 ## 🗂️ Datos
 
-Los datos utilizados son **ficticios** y **no-publicos**, proporcionados en el curso de Udemy, y constan de **4 tablas relacionales** que simulan la operación de una cadena de tiendas de electrodomésticos:
+El conjunto de datos utilizado en este proyecto es **ficticio y de carácter no público**, proporcionado como material didáctico dentro del curso de Udemy. Los datos simulan la operación comercial de una cadena de tiendas de electrodomésticos, permitiendo analizar el comportamiento de las ventas desde diferentes dimensiones del negocio.
 
-- **Listado_precios**: Contiene id_producto (PRIMARY KEY), Precio y Costo.
-- **Categorías**: Contiene Categoría, id_categoría,Subcategoría, id_subcategoria.
-- **Ciudades**: Contiene ID_ciudad, Ciudad, Latitud y Longitud.
-- **Transacciones**: Contiene Transacciones, fecha y hora, Id_producto, tipo de venta, Cantidad Id_ciudad, id_categoria, Id_subcategoría.
+El dataset está compuesto por **cuatro tablas relacionales** que representan distintos componentes del proceso comercial:
 
-Se realizó un **modelo de datos en estrella** para relacionar las tablas, la relación es 1 (dimensión) a N (hechos), típica del esquema:
+- **Listado_Precios:** Contiene información económica de los productos, incluyendo ID_Producto (clave primaria), precio de venta y costo.
 
-*La tabla Transacciones actúa como tabla de hechos (fact table): contiene medidas (como Cantidad) y claves foráneas que la conectan con las dimensiones.
-*Las tablas Listado_Precios, Ciudades1 y Categorías son tablas de dimensión: cada una tiene una clave primaria (ID_Producto, ID_Ciudad, ID_Categoría/ID_Subcategoría) que es referenciada desde Transacciones.
+- **Categorías:** Incluye la clasificación jerárquica de los productos mediante categoría y subcategoría, junto con sus respectivos identificadores (ID_Categoría e ID_Subcategoría).
+ 
+- **Ciudades:** Contiene información geográfica asociada a las transacciones, incluyendo ID_Ciudad, nombre de la ciudad, latitud y longitud, lo que permite realizar visualizaciones geoespaciales.
 
+- **Transacciones:** Representa el registro de ventas e incluye información como fecha y hora de la transacción, ID_Producto, tipo de venta (canal), cantidad de unidades vendidas, ID_Ciudad, ID_Categoría e ID_Subcategoría.
+
+## <div align="left">
+  <img src="https://github.com/user-attachments/assets/ce34cd94-2edb-4945-9485-cec673571ee8" 
+       width="32" height="32" alt="icono" style="vertical-align: middle;"> 
+  <span style="font-size: 16px; margin-left: 8px;">Modelo de datos</span>
+</div>   
+
+ ## Modelo
+
+Para estructurar el análisis se implementó un **modelo de datos en estrella (Star Schema)**, un enfoque ampliamente utilizado en proyectos de business intelligence y analítica de datos, que facilita el rendimiento de las consultas y la construcción de visualizaciones analíticas.
+
+En este modelo:  
+
+- Transacciones funciona como tabla de hechos (fact table), ya que contiene las medidas cuantitativas del negocio, como la cantidad de unidades vendidas, además de las claves foráneas que permiten relacionarla con las diferentes dimensiones.
+
+- Listado_Precios, Ciudades y Categorías funcionan como tablas de dimensión, proporcionando el contexto descriptivo necesario para el análisis, como información de productos, ubicación geográfica y clasificación comercial.
+
+- Las relaciones entre tablas siguen el patrón uno a muchos (1:N), donde cada dimensión se conecta con múltiples registros dentro de la tabla de hechos, permitiendo realizar análisis desde diferentes perspectivas como producto, ubicación geográfica y estructura de categorías.
+
+Este enfoque de modelado facilita la construcción de visualizaciones dinámicas y consultas analíticas eficientes dentro del dashboard.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/889b5ee7-702c-49fe-bd2b-69964f42d759" width="80%"> 
@@ -76,41 +119,68 @@ Se realizó un **modelo de datos en estrella** para relacionar las tablas, la re
 
 ## 🛠️ Herramientas y Tecnologías
 
-- **EXCEL**: análisis exploratoriod e daots(DEA), y limpieza de la base de datos, principalmente en los datos geográficos.
-- **Power BI Desktop**: Desarrollo del dashboard, modelado y visualizaciones.
-- **Generador de temas BIPP**: Apoyo para el diseño del tema de Dashboard
+El desarrollo del proyecto involucró el uso de diversas herramientas orientadas al análisis de datos, preparación de información y visualización analítica:
+
+**Excel**
+Utilizado para realizar el análisis exploratorio de datos (EDA) y procesos iniciales de limpieza y validación del dataset, especialmente en la revisión y corrección de los datos geográficos utilizados posteriormente en las visualizaciones de mapas.
+
+**Power BI Desktop**
+Herramienta principal empleada para el modelado de datos, creación de medidas analíticas y desarrollo del dashboard interactivo, incluyendo la implementación de visualizaciones, segmentaciones y navegación analítica.
+
+**BIPP Theme Generator**
+Utilizado como apoyo para el diseño del tema visual del dashboard, permitiendo definir una paleta de colores consistente y una identidad visual coherente, con el objetivo de mejorar la legibilidad y la narrativa visual del reporte.
   
 ---
 
 ## ✨ Características Destacadas
 
-Uno de los principales objetivos del ejercicio, es usar paginas y documentaicón de apoyo en la parte de diseño visual, algunos recursos usados son:
- **BIPP (https://bibb.pro/apps/theme-generator/?color1=e85399&color2=060606&color3=f2dcee&color4=f89833&color5=ec75dd&color6=ef885d&color7=6c6c6c&color8=787878)**:
+Uno de los objetivos del ejercicio fue aplicar principios de diseño visual y buenas prácticas en la construcción de dashboards, apoyándose en diferentes recursos especializados para mejorar la coherencia estética, la claridad visual y la experiencia de usuario dentro del reporte.
 
-Te ayuda a generar diferentes temas, para la construcción del Dashboard, puedes utilizar temas ya construidos, o personalizarlo. Para el caso del ejercicio se subio la imagen del logo (ficticio), y se genero un tema personalizado en un archivo JSON (JavaScript Object Notation), para la construccion del dashboard con un diseño coherente y atractivo.
+Para ello se utilizaron diversas herramientas de apoyo en el proceso de diseño:
 
-**Flaticon(https://www.flaticon.es/resultados?word=puntos)**: 
-Es un recurso en línea, que tiene una gran cantidad de íconos para poder insertar en tu dasboard.
+**BIPP Theme Generator**<sub>https://bibb.pro/apps/theme-generator/?color1=e85399&color2=060606&color3=f2dcee&color4=f89833&color5=ec75dd&color6=ef885d&color7=6c6c6c&color8=787878</sub>
 
-**Rueda de colores (https://color.adobe.com/es/create/color-wheel)**:
-Es otra página para generar temas, en el caso de este ejercicio, se utilizo para conocer colores complementarios, y darle equilibrio al Dashboard.
+Herramienta utilizada para generar temas personalizados para Power BI. Permite definir paletas de colores, estilos visuales y configuraciones de diseño mediante archivos JSON (JavaScript Object Notation). En este proyecto se utilizó para crear un tema visual personalizado, integrando un logotipo ficticio y una paleta cromática consistente, lo que permitió mantener una identidad visual uniforme en todo el dashboard.
 
-- **Diseño limpio y moderno**: Uso de paleta de colores coherente, tipografías legibles y disposición equilibrada de los elementos.
-- **Interactividad**: Filtros básicos, segmentadores y tarjetas  de datos (en este caso se uso el KPI ventas totales).
-- **Gráficos variados**: Barras, líneas de tendencia, mapas ygráfico de dona para porcentajes,.
-- **Narrativa guiada**: El dashboard cuenta una historia, desde el panorama general hasta el detalle por departamento.
+**Flaticon** <sub>https://www.flaticon.es/</sub>
+
+Plataforma utilizada como fuente de iconografía visual para complementar algunos elementos del dashboard. El uso de iconos facilita la interpretación visual de la información y contribuye a mejorar la claridad del diseño.
+
+**Adobe Color** <sub>https://color.adobe.com/es/create/color-wheel<sub> 
+
+Herramienta empleada para explorar combinaciones cromáticas y colores complementarios, permitiendo definir una paleta equilibrada que mejore la legibilidad y armonía visual del dashboard.
+
+A partir de estos recursos se implementaron las siguientes características de diseño y funcionalidad:
+
+- Diseño visual limpio y moderno
+Uso de una paleta de colores consistente, tipografías legibles y una distribución equilibrada de los elementos visuales, con el objetivo de mejorar la claridad y la experiencia de navegación del usuario.
+
+- Interactividad analítica
+Incorporación de segmentadores, filtros y tarjetas de indicadores (KPIs) que permiten al usuario explorar los datos de forma dinámica. En particular, se implementó una tarjeta de KPI para visualizar el total de ventas, proporcionando una referencia rápida del desempeño comercial.
+
+- Diversidad de visualizaciones
+El dashboard incluye diferentes tipos de gráficos, como gráficos de barras, líneas de tendencia, mapas geográficos y gráficos de dona, lo que permite analizar la información desde múltiples perspectivas analíticas.
+
+- Narrativa basada en datos (data storytelling)
+La estructura del dashboard sigue una narrativa visual progresiva, comenzando con una visión general del desempeño de ventas y avanzando hacia análisis más detallados por categorías, canales de venta y distribución geográfica.
 
 ---
 
 ## 🚀 Cómo Usar Este Repositorio
 
-1.Este repositorio solo es con fines descriptivos, y demostrativo de manejo de análisis de dtos, y manejo de Power BI.
+Este repositorio tiene fines educativos y demostrativos, y fue creado para mostrar el proceso de análisis de datos, modelado y desarrollo de dashboards interactivos en Power BI.  Para explorar el proyecto se recomienda seguir los siguientes pasos:
 
-2.Para poder ver el el uso de los filtros, los segmentadores, y la tarjeta de KPI abre el archivo `.pbix` con Power BI Desktop (versión 2023 o superior).
+- **Descargar** el archivo del proyecto
+Descarga el archivo .pbix incluido en el repositorio.
 
-3.Explora las diferentes páginas del dashboard y prueba los filtros interactivos.
-   
-4.Si deseas modificar los datos, puedes editar las fuentes en Power Query.
+- **Abrir** el archivo en Power BI Desktop
+Para visualizar el dashboard interactivo, abre el archivo .pbix utilizando Power BI Desktop (versión 2023 o superior).
+
+- **Explorar** las visualizaciones interactivas
+Navega por las diferentes páginas del dashboard y utiliza los segmentadores, filtros y elementos interactivos para analizar los datos desde distintas perspectivas.
+
+- **Modificar o actualizar los datos** (opcional)
+Si deseas experimentar con el modelo de datos, puedes editar o actualizar las fuentes de información a través de Power Query, lo que permite transformar y preparar nuevos datos para el análisis.
 
 ---
 
@@ -118,9 +188,11 @@ Es otra página para generar temas, en el caso de este ejercicio, se utilizo par
 
 # Descripción general del dashboard
 
-Este dashboard constituye una plataforma de **análisis táctico y exploratorio** para el monitoreo del desempeño comercial de una tienda ficticia de productos electrónicos. Integra visualizaciones interactivas que permiten analizar el comportamiento de ventas desde múltiples dimensiones, incluyendo volumen de productos vendidos, distribución por categoría, canal de venta y evolución temporal.
+Este **dashboard** constituye una plataforma de análisis táctico y exploratorio diseñada para el monitoreo del desempeño comercial de una tienda ficticia de productos electrónicos. **Integra diversas visualizaciones interactivas** que permiten analizar el comportamiento de las ventas desde múltiples dimensiones del negocio, incluyendo volumen de productos vendidos, distribución por categorías, canal de venta y evolución temporal.
 
-El modelo analítico facilita:
+El dashboard está construido sobre un **modelo analítico estructurado**, que facilita la exploración de la información y la generación de **insights*** mediante herramientas de interacción visual.
+
+El modelo analítico permite:
 
 <p align="center">
 
@@ -145,7 +217,9 @@ El modelo analítico facilita:
 
 </p>
 
-El dashboard está diseñado para apoyar decisiones tácticas de negocio, priorización de categorías y evaluación de estrategias de venta multicanal.
+
+<small>*A través de estas capacidades analíticas, el dashboard permite **transformar datos transaccionales en información estratégica** que facilita la toma de decisiones basada en datos.*<small>
+
 
 <p align="center">
 <img width="425" height="726" alt="image" src="https://github.com/user-attachments/assets/c79cb413-8cd4-49e0-9abc-f72580675eab" />
@@ -153,74 +227,113 @@ El dashboard está diseñado para apoyar decisiones tácticas de negocio, priori
 
 ## Análisis de la distribución Geográfica de Ventas/Transacciones (primer hoja del Dashboard)
 
-En esta primer parte del dashboard se presenta un análisis espacial de las transacciones comerciales, permitiendo visualizar la distribución de ventas por ciudad mediante un mapa interactivo.
+La primera página del dashboard presenta un **análisis geoespacial** de las transacciones comerciales, permitiendo visualizar la distribución geográfica de las ventas por ciudad mediante un mapa interactivo. Esta vista proporciona una perspectiva inicial del comportamiento comercial del negocio, facilitando la identificación de zonas con mayor concentración de actividad de ventas.
 
-*Componentes analíticos:*
+- Componentes analíticos: 
 
- - Mapa geográfico de transacciones que identifica la concentración de ventas por ubicación.
- 
- - Indicador KPI de volumen total de productos vendidos.
- 
- - Filtro temporal dinámico que permite analizar el comportamiento de ventas entre 2024 y 2026.
+  - **Mapa geográfico de transacciones:** Visualización espacial que representa la distribución de las ventas por ciudad utilizando coordenadas geográficas (latitud y longitud), permitiendo identificar la concentración de transacciones en diferentes regiones.
 
-*Objetivo táctico:*  Facilitar la identificación de mercados regionales con mayor actividad comercial, permitiendo orientar decisiones relacionadas con las Estrategias de expansión, la Logística y distribución, así como tomar desiciones para Campañas comerciales regionales.
+  - **Indicador KPI** de volumen total de productos vendidos
+Tarjeta de indicador que muestra el total de unidades comercializadas, proporcionando una referencia rápida del desempeño general del periodo analizado.
 
+  - **Filtro temporal dinámico**
+    
+  - **Segmentador** de fechas que permite analizar el comportamiento de las ventas en el periodo comprendido entre 2024 y 2026, facilitando la exploración temporal del dataset.
+
+
+- Objetivo analítico: El propósito de esta página es proporcionar una visión geográfica del desempeño comercial, permitiendo identificar las regiones con mayor actividad de ventas y analizar la distribución territorial de los clientes. Este enfoque facilita la generación de información relevante para apoyar decisiones relacionadas con:
+
+   - Estrategias de expansión comercial
+
+   - Optimización logística y de distribución
+
+   - Planificación de campañas comerciales regionales
+
+En conjunto, esta visualización permite comprender dónde se concentra la actividad comercial, aportando un contexto espacial clave para el análisis del negocio.
 
 <img width="1105" height="645" alt="image" src="https://github.com/user-attachments/assets/0618e1b8-0ef4-4bc3-ad86-c1a278fcf226" />
 
 
 ## Desempeño por Categoría y Canal de Venta (segunda hoja del Dashboard)
 
-En esta segunda sección del dashboard se proporciona una visión comparativa del desempeño de ventas por categorías y subcategorías de productos, así como su relación con los canales de comercialización.
+La segunda página del dashboard presenta un **análisis comparativo** del desempeño comercial por categorías y subcategorías de productos, integrando además la dimensión del canal de venta. Esta vista permite evaluar cómo se distribuyen las ventas entre diferentes líneas de productos y cómo estas se comportan dentro de los distintos canales de comercialización.
 
-*Componentes analíticos*
+A través de visualizaciones jerárquicas y comparativas, esta sección facilita la **identificación de categorías con mayor contribución** al volumen total de ventas, así como la comprensión del papel que desempeñan los canales online y tienda física en la dinámica comercial del negocio.
 
-- Distribución porcentual de ventas por categoría
+- Componentes analíticos:  Esta página del dashboard incorpora los siguientes elementos de análisis:
 
-- Permite identificar qué categorías concentran mayor participación en el volumen total.
+    - Distribución porcentual de ventas por categoría
+     
+    - Visualización que muestra la participación relativa de cada categoría de producto en el total de ventas, permitiendo identificar cuáles concentran una mayor proporción del volumen comercializado.
+     
+    - Comparación de ventas por canal de comercialización:  Gráfico comparativo que permite diferenciar el desempeño entre ventas online y ventas en tienda física, facilitando el análisis del comportamiento de los clientes según el canal utilizado.
+     
+    - Análisis jerárquico de categorías y subcategorías: Visualización estructurada que permite profundizar en el desempeño de las distintas subcategorías de productos, proporcionando una perspectiva más detallada sobre el rendimiento de cada línea dentro del portafolio.
 
-- Comparación de ventas por canal
+- Objetivo analítico: El propósito de esta sección es proporcionar una visión comparativa del desempeño comercial por tipo de producto y canal de venta, facilitando la identificación de oportunidades de optimización en la estrategia comercial.
 
-- Diferenciación entre ventas online y ventas en tienda física.
+- Este análisis contribuye a respaldar decisiones relacionadas con:
 
-- Análisis jerárquico de categorías y subcategorías
+   - Gestión estratégica del portafolio de productos
 
-- Permite profundizar en el rendimiento específico de cada línea de productos.
+   - Priorización de categorías con mayor potencial comercial
 
-*Objetivo táctico: Se relaciona principalmente en apoyar decisiones relacionadas con:*
+   - Optimización de estrategias de venta omnicanal
 
-- Gestión del portafolio de productos
-- Priorización de categorías estratégicas
-- Optimización de estrategias omnicanal
-
+En conjunto, esta página permite comprender qué productos impulsan el desempeño comercial y a través de qué canales se generan las ventas, aportando información clave para la planificación estratégica del negocio.
 
 
 <img width="1103" height="648" alt="image" src="https://github.com/user-attachments/assets/9d3336b5-f450-4811-9880-b41893ce9f23" />
 
 
 ## Análisis de Tendencias y Evolución de Ventas
-En la última parte del reporte del Dashboard se presenta un análisis longitudinal del comportamiento de ventas, mostrando la evolución de la demanda por categoría a lo largo del tiempo.
 
-*Componentes analíticos:*
+La tercera página del dashboard presenta un análisis temporal del comportamiento de las ventas, permitiendo observar la evolución del volumen de productos vendidos a lo largo del tiempo. Esta vista está orientada a identificar patrones de comportamiento en la demanda y analizar el desempeño de las diferentes categorías de productos en distintos periodos.
 
-- Serie temporal de ventas.
+Mediante visualizaciones de tipo serie temporal, el dashboard permite comprender cómo evolucionan las ventas entre 2024 y 2026, facilitando la identificación de tendencias de crecimiento, variaciones estacionales o posibles disminuciones en la demanda.
 
-- Evolución del volumen de ventas entre 2024 y 2026.
+- Componentes analíticos, esta sección integra los siguientes elementos de análisis:
 
-- Segmentación por categoría.
+   - **Serie temporal de ventas**: Visualización de línea que representa la evolución del volumen de ventas a lo largo del tiempo, permitiendo analizar cambios en el comportamiento de la demanda.
 
-- Permite identificar patrones de crecimiento, estacionalidad o declive en cada línea de producto.
+   - **Evolución del volumen de ventas (2024–2026)**: Análisis temporal que muestra la dinámica del volumen de productos vendidos durante el periodo disponible en el dataset.
 
+   - **Segmentación por categoría de producto**: Desagregación de la serie temporal por categorías, lo que permite comparar el desempeño de las distintas líneas de productos y detectar variaciones específicas en cada una.
 
-Esta parte fue diseñada para permitir a los responsables comerciales a:
+- Objetivo analítico: El propósito de esta página es proporcionar una perspectiva longitudinal del desempeño comercial, facilitando el análisis de la evolución de las ventas en el tiempo y la identificación de patrones relevantes para la planificación estratégica. Este análisis permite a los responsables comerciales:
 
- - Detectar tendencias de crecimiento o disminución en categorías específicas
- - Identificar patrones estacionales de consumo
- - Anticipar necesidades de inventario y abastecimiento
+   - Detectar tendencias de crecimiento o disminución en categorías específicas
+
+   - Identificar posibles patrones estacionales de consumo
+
+   - Anticipar necesidades de inventario y abastecimiento
+
+En conjunto, esta sección permite comprender cómo evoluciona la demanda a lo largo del tiempo, aportando información valiosa para la planificación operativa y la toma de decisiones comerciales basadas en datos. Anticipar necesidades de inventario y abastecimiento
 
 <img width="1100" height="627" alt="image" src="https://github.com/user-attachments/assets/0e18f02e-849d-4d88-8927-e2bb848fef7d" />
 
 ---
+## <div align="left">
+  <img src="https://github.com/user-attachments/assets/e50e0ae2-1f8b-4b32-8316-f2ebefaa2dce" 
+       width="32" height="32" alt="icono" style="vertical-align: middle;"> 
+  <span style="font-size: 16px; margin-left: 8px;">Insights obtenidos del análisis</span>
+</div>  
+
+## Insights obtenidos del análisis
+
+A partir de la exploración del dashboard y del análisis de las diferentes dimensiones del dataset (categoría de producto, canal de venta, geografía y evolución temporal), se identifican algunos hallazgos relevantes sobre el comportamiento comercial del negocio:
+
+- **Concentración geográfica de la demanda**
+El análisis espacial muestra que las transacciones se concentran en determinadas ciudades, lo que sugiere la existencia de mercados regionales con mayor actividad comercial. Este patrón puede orientar decisiones relacionadas con estrategias de expansión, optimización logística y campañas comerciales focalizadas.
+
+- **Desempeño diferenciado entre categorías de productos**
+Algunas categorías presentan una participación significativamente mayor en el volumen total de ventas, lo que indica que actúan como categorías motor del negocio. Este hallazgo puede apoyar decisiones sobre priorización del portafolio de productos y estrategias de promoción.
+
+- **Importancia relativa de los canales de venta**
+La comparación entre ventas online y en tienda física permite identificar diferencias en el comportamiento del consumidor según el canal, proporcionando información relevante para optimizar estrategias omnicanal y asignación de recursos comerciales.
+
+- **Evolución temporal y patrones de demanda**
+El análisis de series temporales permite observar tendencias de crecimiento y variaciones en la demanda a lo largo del tiempo, así como posibles patrones estacionales en determinadas categorías. Esta información es clave para planificación de inventario, previsión de demanda y toma de decisiones estratégicas.
 
 ## 📚 Créditos
 
@@ -235,7 +348,7 @@ Lo realiza:
 
 <div align="center">
 <p align="justify" style="max-width:800px;">
-Analista de datos con 5 años de experiencia en análisis estadístico, visualización y gestión de bases de datos en los sectores educativo, de investigación y administrativo. Transformo datos en información estratégica que impulsa decisiones inteligentes. Conocimientos básicos de programación en Python y R; nivel intermedio de Excel y SQL; diseño de dashboards en Tableau y Power BI para facilitar la comprensión y el storytelling basado en datos. Con una maestría en Ciencias, aplico pensamiento analítico, crítico e innovador a cada proyecto, integrando narrativas de datos claras y efectivas. Soy una profesional motivada, adaptable y orientada al aprendizaje continuo. Como analista busco generar análisis que aporten valor, perspectiva estratégica y una visión única para mejorar el rendimiento organizacional y la optimización de decisiones estratégicas basadas en datos.
+ Analista de datos con 5 años de experiencia en análisis estadístico, visualización y gestión de bases de datos en los sectores educativo, de investigación y administrativo. Transformo datos en información estratégica que impulsa decisiones inteligentes. Conocimientos básicos de programación en Python y R; nivel intermedio de Excel y SQL; diseño de dashboards en Tableau y Power BI para facilitar la comprensión y el storytelling basado en datos. Con una maestría en Ciencias, aplico pensamiento analítico, crítico e innovador a cada proyecto, integrando narrativas de datos claras y efectivas. Soy una profesional motivada, adaptable y orientada al aprendizaje continuo. Como analista busco generar análisis que aporten valor, perspectiva estratégica y una visión única para mejorar el rendimiento organizacional y la optimización de decisiones estratégicas basadas en datos.
 </p>
 </div>
 
