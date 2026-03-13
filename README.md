@@ -55,7 +55,7 @@ Adicionalmente, el dashboard incorpora segmentaciones y filtros interactivos que
 
 Desde el enfoque de **data storytelling**, el proyecto busca representar visualmente el comportamiento del negocio mediante visualizaciones claras, atractivas y fáciles de interpretar, permitiendo comunicar insights relevantes a distintos tipos de usuarios. Para ello, el análisis se organiza en dos perspectivas principales:
 
-1. Perspectiva de desempeño general de ventas
+**1. Perspectiva de desempeño general de ventas**
 Se analiza el comportamiento global de las ventas, incluyendo:
 
 - Evolución temporal de las ventas
@@ -64,7 +64,7 @@ Se analiza el comportamiento global de las ventas, incluyendo:
 
 - Análisis geográfico para identificar las regiones o ciudades con mayor concentración de clientes
 
-2. Perspectiva de comparación entre categorías de productos
+**2. Perspectiva de comparación entre categorías de productos**
 Se evalúa el desempeño relativo de las diferentes categorías de productos, permitiendo comparar:
 
 - Volumen de unidades vendidas
@@ -324,16 +324,54 @@ En conjunto, esta sección permite comprender cómo evoluciona la demanda a lo l
 A partir de la exploración del dashboard y del análisis de las diferentes dimensiones del dataset (categoría de producto, canal de venta, geografía y evolución temporal), se identifican algunos hallazgos relevantes sobre el comportamiento comercial del negocio:
 
 - **Concentración geográfica de la demanda**
-El análisis espacial muestra que las transacciones se concentran en determinadas ciudades, lo que sugiere la existencia de mercados regionales con mayor actividad comercial. Este patrón puede orientar decisiones relacionadas con estrategias de expansión, optimización logística y campañas comerciales focalizadas.
+El análisis geoespacial revela una marcada concentración de transacciones en la región de Tokio, seguida por Yokohama y Nagoya. Estas tres ciudades acumulan la mayor parte del volumen de ventas, lo que indica la existencia de mercados regionales con alta actividad comercial.
 
-- **Desempeño diferenciado entre categorías de productos**
-Algunas categorías presentan una participación significativamente mayor en el volumen total de ventas, lo que indica que actúan como categorías motor del negocio. Este hallazgo puede apoyar decisiones sobre priorización del portafolio de productos y estrategias de promoción.
+  - *Implicaciones estratégicas:*
+
+    - Expansión y capacidad logística: Priorizar inversiones en infraestructura de almacenamiento y distribución en estas zonas para garantizar disponibilidad de producto y reducir tiempos de entrega.
+
+    - Estrategias comerciales focalizadas: Diseñar campañas de marketing y promociones específicas para estos mercados, aprovechando su alta densidad de clientes.
+
+Optimización de recursos: Evaluar la posibilidad de reducir la presencia física en regiones de baja demanda y redirigir esfuerzos hacia los clústeres de mayor potencial.
+
+ - **Desempeño diferenciado entre categorías de productos**
+
+   - *Implicaciones estratégicas:*
+
+     - Priorización del portafolio: Asignar mayor presupuesto de inventario y marketing a la categoría TV y Sonido, asegurando surtido y novedades constantes.
+
+     - Estrategias de cross-selling: Aprovechar la alta rotación de esta categoría para promocionar productos complementarios (accesorios, cables, garantías extendidas).
+
+     - Negociación con proveedores: Reforzar alianzas estratégicas con los principales fabricantes de TV y audio para obtener mejores condiciones y exclusividades.
 
 - **Importancia relativa de los canales de venta**
-La comparación entre ventas online y en tienda física permite identificar diferencias en el comportamiento del consumidor según el canal, proporcionando información relevante para optimizar estrategias omnicanal y asignación de recursos comerciales.
+El canal online supera significativamente a la tienda física en volumen de ventas durante todo el período analizado. Esta tendencia sugiere un cambio en las preferencias de compra de los consumidores hacia lo digital.
 
+  - *Implicaciones estratégicas:*
+
+    - Reasignación de recursos: Evaluar la posibilidad de reducir la superficie de venta física o transformar algunas tiendas en puntos de experiencia o showrooms, disminuyendo costos fijos (alquiler, servicios, personal).
+
+    - Fortalecimiento del canal digital: Invertir en mejoras de la plataforma de e-commerce, logística de última milla y atención al cliente online.
+
+    - Estrategia omnicanal: Desarrollar iniciativas que integren ambos canales, como la compra online con recogida en tienda (click & collect), para aprovechar sinergias y ofrecer una experiencia unificada.
+     
 - **Evolución temporal y patrones de demanda**
-El análisis de series temporales permite observar tendencias de crecimiento y variaciones en la demanda a lo largo del tiempo, así como posibles patrones estacionales en determinadas categorías. Esta información es clave para planificación de inventario, previsión de demanda y toma de decisiones estratégicas.
+
+El análisis de series temporales muestra un comportamiento diferenciado por categoría:
+
+  - Electrodomésticos y computadoras: Demanda estable y constante a lo largo del año, sin picos estacionales marcados. Esto indica una necesidad de reposición continua y productos de uso cotidiano.
+
+  - Cámaras fotográficas: Experimentaron un crecimiento significativo durante el primer año, seguido de una caída sostenida en los dos años posteriores. Esta tendencia podría deberse a la saturación del mercado, cambios tecnológicos o la entrada de nuevos competidores.
+
+    - *Implicaciones estratégicas:*
+
+      - Planificación de inventario: Para categorías estables, mantener niveles de stock predecibles y optimizar la cadena de suministro con reposiciones programadas.
+
+      - Investigación de mercado: Realizar un análisis más profundo sobre la caída en ventas de cámaras para identificar causas (¿cambio en preferencias del consumidor? ¿obsolescencia por smartphones?) y definir acciones correctivas (liquidación de inventario, reposicionamiento, descuentos).
+
+      - Previsión de demanda: Incorporar estos patrones en modelos predictivos para ajustar compras y promociones de forma dinámica.
+
+
 
 ## 📚 Créditos
 
